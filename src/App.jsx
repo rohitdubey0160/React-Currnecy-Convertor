@@ -40,9 +40,9 @@ function App() {
   return (
   <div
     className="w-full min-h-screen flex items-center justify-center bg-cover bg-center"
-    style={{
-      backgroundImage: `url('src/assets/background-image.png')`,
-    }}
+   style={{
+  backgroundImage: `url('/images/background-image.png')`,
+}}
   >
     <div className="w-full max-w-md mx-auto px-4">
       <div className="rounded-2xl p-6 backdrop-blur-xl bg-white/20 border border-white/30 shadow-2xl transition-all duration-300">
